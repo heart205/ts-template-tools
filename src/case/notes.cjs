@@ -71,8 +71,6 @@ function formatTextNotice(path, fileName, maxLength = 10) {
   }
 }
 
-formatTextNotice(__dirname + '/../', '.prettierrc.js')
-
 module.exports = {
   formatTextNotice,
 }
